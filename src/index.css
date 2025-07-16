@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+
+@theme{
+    --font-heading: "Merriweather", serif;
+    --font-body: "Source Sans 3", sans-serif;
+}
