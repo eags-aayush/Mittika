@@ -101,7 +101,7 @@ const WallArt = () => {
   return (
     <>
       <Navbar />
-      <div className='grid grid-cols-2 md:grid-cols-4 gap-5 p-10'>
+      <div className='grid grid-cols-1 md:grid-cols-4 gap-5 p-10'>
       {featuredProductsData.map(product => (
         <div className='bg-gray-100 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300'>
           <Link to={`/${product.type}/${product.id}`}>
