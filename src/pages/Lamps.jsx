@@ -113,12 +113,12 @@ const Lamps = () => {
             <p className="text-gray-700 mb-2">{product.description}</p>
             <p className='text-gray-700 mb-2'>Id: {product.id}</p>
             <p className="text-2xl font-bold text-primary-600">₹{product.price}</p>
-            <Link
+            {/* <Link
               to={`/${product.type}/${product.id}`}
               className="mt-4 block text-center bg-secondary-500 hover:bg-secondary-600 text-black py-2 px-4 rounded-md transition duration-300"
             >
               Enquire
-            </Link>
+            </Link> */}
           </div>
         </div>
       ))}
